@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Compiled TypeScript files
+lib/
+dist/
+
+# Local environment variables (DO NOT COMMIT THIS)
+.env
+
+# Subsquid specific build artifacts and state
+db/
+src/model/generated/
+build/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Editor/IDE specific files
+.vscode/
+.idea/
